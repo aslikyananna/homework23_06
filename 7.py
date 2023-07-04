@@ -1,6 +1,6 @@
-def power_of(n):
-     def power(x = 2):
-          return x**n
-     return power()
-result = power_of(2)
-print(result)
+x = 10
+def my_functio():
+     x = 20
+     print("lokal", x)
+     print("global", globals()["x"])
+my_functio()
